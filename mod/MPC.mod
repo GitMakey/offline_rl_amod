@@ -4,12 +4,12 @@
  * Creation Date: Aug 25, 2020 at 10:45:21 AM
  *********************************************/
 tuple demandAttrTuple{
-  	int i;
-  	int j;
-  	int t;
-  	float v;
-  	float tt;
-  	float p;
+  	int i;      // start region
+  	int j;      // End region
+  	int t;      // Specific time of demand 
+  	float v;    // Volume of demand
+  	float tt;   // Travel time between i and j 
+  	float p;    // Price or revenue potential for this demand 
 }
 
 tuple edgeAttrTuple{
